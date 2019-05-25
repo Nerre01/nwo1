@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Founders</title>
+
+         <!-- Bootstrap CSS CDN -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- Our Custom CSS -->
+        <link rel="stylesheet" href="style5.css">
+        <link rel="stylesheet" href="stylePic.css">
+<style>
+    .center {
+  text-align: center;
+    }
+    div.a {
+  text-align: center;
+    }
+
+    div.b {
+  text-align: left;
+    }
+
+    div.c {
+  text-align: right;
+    }
+
+    h5 {
+    color: white
+    }
+</style>
+    </head>
+    <body>
+
+
+
+        <div class="wrapper">
+            <!-- Sidebar Holder -->
+         <nav id="sidebar">
+            <div class="sidebar-header">
+                <div class="a">
+                    <img src="img/MystixxLogoskrt.png" alt="Logo" style="width: 100%">
+                </div>
+            </div>
+
+                <ul class="list-unstyled components">
+
+                <div class="a">
+                    <p style="width: 100%">New World Order</p>
+                </div>
+                <li><a href="index.html">Home</a></li>
+                    <li class="active">
+                        <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Founding Fathers</a>
+                        <ul class="collapse list-unstyled" id="homeSubmenu">
+                            <li><a href="owners.html">The Founders</a></li>
+                            <li><a href="mystixx.html">Mystixx</a></li>
+                            <li><a href="King.html">KingFookingFaded</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        
+                        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Pages</a>
+                        <ul class="collapse list-unstyled" id="pageSubmenu">
+                            <li><a href="#">Page 1</a></li>
+                            <li><a href="#">Page 2</a></li>
+                            <li><a href="#">Page 3</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                 <a href="https://www.discord.gg/jU3bUey" target="_blank">Join our Discord</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+
+            </nav>
+
+            <!-- Page Content Holder -->
+            <div id="content">
+
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+
+                        <div class="navbar-header">
+                            <button type="button" id="sidebarCollapse" class="navbar-btn">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <div class="center">   
+                               <h1>NWO OFFICIAL WEBSITE</h1>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+                <h2>The Founders</h2>
+                <p>This is the Founding Fathers of NWO. GG was an owner of another group called Gorilla Gang where Faded was the main streamer in that community. Mystixx and Puncake had their own community before NWO. Faded and Mystixx talked on other streams and got a closer connection and started to discuss about combining both communities to create one big commuinity. The reason for combining the communities was to grow bigger and better as one unit. Everybody agreed and they created the New World Order.</p>
+
+            <div class="row"></div>
+            <div class="column">
+            <img src="img/MystixxPic.png" alt="Mystixx" style="width:100%">
+            <h3 style="text-align:center">Mystixx</h3>
+            </div>
+            <div class="column">
+            <img src="img/KingSq.png" alt="King" style="width:100%">
+            <h3 style="text-align:center">KingFookinFaded</h3>
+            </div>
+                    <div class="column">
+            <img src="img/GG.png" alt="GG" style="width:100%">
+            <h3 style="text-align:center">GG_JokingSmokey</h3>
+            </div>
+                    <div class="column">
+            <img src="img/punS.png" alt="Pun" style="width:100%">
+            <h3 style="text-align:center" >Puncake</h3>
+            </div>
+        
+
+
+
+
+            </div>
+        </div>
+
+
+
+
+
+        <!-- jQuery CDN -->
+         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+         <!-- Bootstrap Js CDN -->
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+         <script>
+             $(document).ready(function () {
+                 $('#sidebarCollapse').on('click', function () {
+                     $('#sidebar').toggleClass('active');
+                     $(this).toggleClass('active');
+                 });
+             });
+         </script>
+    </body>
+</html>
